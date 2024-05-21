@@ -1,0 +1,12 @@
+<div class="slide-container" (mouseover)="stopAutoSliding()" (mouseout)="startAutoSliding()">
+  <div class="slides">
+      <img *ngFor="let image of images; let i = index" [src]="image" [ngClass]="{'active': i === currentIndex}">
+  </div>
+  <div class="buttons">
+      <span class="next" (click)="slideNext()">&#10095;</span>
+      <span class="prev" (click)="slidePrev()">&#10094;</span>
+  </div>
+  <div class="dotsContainer">
+      <div *ngFor="let image of images; let i = index" class="dot" [ngClass]="{'active': i === currentIndex}" (click)="switchImage(i)"></div>
+  </div>
+</div>
