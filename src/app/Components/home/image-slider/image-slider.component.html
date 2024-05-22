@@ -1,12 +1,25 @@
-<div class="slide-container" (mouseover)="stopAutoSliding()" (mouseout)="startAutoSliding()">
-  <div class="slides">
-      <img *ngFor="let image of images; let i = index" [src]="image" [ngClass]="{'active': i === currentIndex}">
-  </div>
-  <div class="buttons">
-      <span class="next" (click)="slideNext()">&#10095;</span>
-      <span class="prev" (click)="slidePrev()">&#10094;</span>
-  </div>
-  <div class="dotsContainer">
-      <div *ngFor="let image of images; let i = index" class="dot" [ngClass]="{'active': i === currentIndex}" (click)="switchImage(i)"></div>
-  </div>
-</div>
+<!-- <div class="slider">
+    <div class="list">
+        <div class="item">
+            <img src="assets/Images/Home Page Slider/img1.jpg" alt="">
+            <div class="content">
+                <div class="title">MAGIC SLIDER</div>
+                <div class="type">FLOWER</div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
+                </div>
+                <div class="button">
+                    <button>SEE MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="thumbnail">
+
+    </div>
+
+    <div class="nextPrevArrows">
+
+    </div>
+</div> -->
