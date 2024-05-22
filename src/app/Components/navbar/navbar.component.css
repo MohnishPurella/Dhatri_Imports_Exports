@@ -1,8 +1,8 @@
-.bg-transparent {
-    background-color: transparent !important;
-  }
+.bg-transparent a{
+  background-color: transparent !important;
+  color: #eee;
+}
   
-  .bg-dark {
-    background-color: #343a40 !important;
-  }
-  
+.bg-dark a{
+  color: white;
+}

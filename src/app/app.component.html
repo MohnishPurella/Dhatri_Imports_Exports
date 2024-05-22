@@ -1,6 +1,6 @@
 <!-- src/app/app.component.html -->
 <app-loader *ngIf="isLoading"></app-loader>
 <app-navbar *ngIf="!isLoading"></app-navbar>
-<div>
+<div *ngIf="!isLoading">
     <router-outlet />
 </div>
