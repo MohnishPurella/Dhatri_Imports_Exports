@@ -2,7 +2,7 @@
   position: relative;
   min-width: 100%;
   height: 78vw; /* Start with a responsive height based on the viewport width */
-  max-height: 700px; /* Maximum height to maintain large screen aesthetics */
+  max-height: 695px; /* Maximum height to maintain large screen aesthetics */
 }
 
 .slide-container .slides {
