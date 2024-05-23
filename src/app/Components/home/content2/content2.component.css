@@ -1,0 +1,17 @@
+.content{
+    background-color: #14ff72cb !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.heading{
+    text-align: center;    
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+.description{
+    margin-left: 150px;
+    margin-right: 150px;
+}
