@@ -9,8 +9,9 @@
 .description{
     margin-top: 5px;
     margin-bottom: 35px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: justify;
 }
 
 .content{
@@ -18,7 +19,6 @@
     margin-bottom: 50px;
 }
 
-/* Responsive Styles */
 @media (max-width: 1200px) {
     .heading {
         font-size: 4em;
