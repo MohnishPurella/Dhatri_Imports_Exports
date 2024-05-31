@@ -57,3 +57,13 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .customRowClass {
+        display: block;
+    }
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
