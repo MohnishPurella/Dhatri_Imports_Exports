@@ -10,14 +10,16 @@ import { RouterModule } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  isTransparent:boolean = true;
+  //isTransparent:boolean = true;
   constructor() {}
 
   ngOnInit(): void {}
   
-  @HostListener('window:scroll', ['$event'])
-  onWindowScroll() {
-    const verticalOffset = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    this.isTransparent = verticalOffset <= 50;
-  }
+  // @HostListener('window:scroll', ['$event'])
+  // onWindowScroll() {
+  //   const verticalOffset = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  //   this.isTransparent = verticalOffset <= 50;
+  // }
+
+  emailId = 'admin@dhatriexportsimports.com';
 }

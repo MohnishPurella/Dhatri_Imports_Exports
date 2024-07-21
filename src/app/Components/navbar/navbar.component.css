@@ -1,27 +1,29 @@
-.bg-transparent a{
-  background-color: transparent !important;
-  color: #eee;
-}
-  
-.bg-dark a{
-  color: white;
+.contactSection {
+  background: #000;
+  color: #fff;
+  padding: 0.3% 8%;
 }
 
-.nav-link{
-  color: #eee !important;
-  margin-right: 10px !important;
-  padding: 0px 8px !important;
-  transition: 0.2s !important;
-  font-size: 15px !important;
-  transition: background 0.3s, border-radius 0.3s;
+.emailSection, .phoneNumberSection {
+  display: flex;
 }
 
-.active .nav-link {
-  background: #14ff72cb !important;
-  border-radius: 5px !important;
+.emailSection i, .phoneNumberSection i {
+  margin-right: 8px;
 }
 
-.nav-item:hover {
-    background: #14ff72cb;
-    border-radius: 5px;
+.borderLeft {
+  margin: 0 1%;
+  border-left: 1px solid #fff;
+}
+
+
+.navbar {
+  background: #f1d68f;
+  font-weight: bold;
+  padding: 0 8%;
+}
+
+.navBrand {
+  color: #000;
 }

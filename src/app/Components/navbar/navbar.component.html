@@ -1,21 +1,20 @@
-<nav class="navbar navbar-expand-lg fixed-top navbarMain" [ngClass]="{'bg-transparent': isTransparent, 'bg-dark' : !isTransparent}">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/home">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a class="nav-link" routerLink="/home">Home</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/features">Features</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/pricing">Pricing</a>
-        </li>
-      </ul>
-    </div>
+<div class="row">
+  <div class="col-12">
+    <div class="contactSection d-flex">
+      <div class="emailSection">
+        <i class="bi bi-envelope-at-fill"></i>
+        <span class="iconContent">{{emailId}}</span>      
+      </div>
+      <div class="borderLeft"></div>
+      <div class="phoneNumberSection">
+        <i class="bi bi-telephone-fill"></i>
+        <span class="iconContent">1234567890</span>      
+      </div>
+    </div>    
   </div>
-</nav>
+  <div class="col-12">
+    <nav class="navbar">
+      <a class="navbar-brand navBrand" href="javascript:">Navbar</a>
+    </nav>
+  </div>    
+</div>
