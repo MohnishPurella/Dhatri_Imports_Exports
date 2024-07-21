@@ -12,7 +12,7 @@
   margin-right: 8px;
 }
 
-.borderLeft {
+.borderSection {
   margin: 0 1%;
   border-left: 1px solid #fff;
 }
@@ -26,4 +26,27 @@
 
 .navBrand {
   color: #000;
+}
+
+@media (max-width: 320px) {
+  .contactSection {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .emailSection{
+    margin-left: 5%;
+    font-size: 96%;
+  }
+
+  .borderSection{
+    margin-left: 5%;
+  }
+
+  .phoneNumberSection{
+    margin-top: 3%;
+    margin-left: 25%;
+    font-size: 100%;
+  }
 }
