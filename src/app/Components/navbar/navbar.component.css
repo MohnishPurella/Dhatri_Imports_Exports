@@ -48,32 +48,33 @@
   .phoneNumberSection{
     font-size: 85%;
   }
+
+  .navbar {
+    padding: 0 3%;
+  }
 }
 
-/* @media (max-width: 375px) {
+@media (max-width: 376px) {
   .contactSection {
-    padding: 5%;
+    padding: 4%;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .emailSection{
-    margin-left: 5%;
-    font-size: 113%;
+  .borderSection {
+    margin: 0 3%;
   }
 
-  .borderSection{
-    margin-left: 5%;
+  .emailSection{
+    font-size: 85%;
   }
 
   .phoneNumberSection{
-    margin-top: 3%;
-    margin-left: 25%;
-    font-size: 117%;
+    font-size: 85%;
   }
 }
 
-@media (max-width: 325px) {
+/* @media (max-width: 325px) {
   .contactSection {
     padding: 5%;
     display: flex;
