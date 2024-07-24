@@ -1,7 +1,8 @@
 .contactSection {
   background: #000;
   color: #fff;
-  padding: 0.3% 8%;
+  padding: 0.3% 0%;
+  justify-content: center;
 }
 
 .emailSection, .phoneNumberSection {
@@ -21,14 +22,58 @@
 .navbar {
   background: #f1d68f;
   font-weight: bold;
-  padding: 0 8%;
+  padding: 0 10%;
 }
 
 .navBrand {
   color: #000;
 }
 
-@media (max-width: 320px) {
+ @media (max-width: 426px) {
+  .contactSection {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .borderSection {
+    margin: 0 3%;
+  }
+
+  .emailSection{
+    font-size: 85%;
+  }
+
+  .phoneNumberSection{
+    font-size: 85%;
+  }
+}
+
+/* @media (max-width: 375px) {
+  .contactSection {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .emailSection{
+    margin-left: 5%;
+    font-size: 113%;
+  }
+
+  .borderSection{
+    margin-left: 5%;
+  }
+
+  .phoneNumberSection{
+    margin-top: 3%;
+    margin-left: 25%;
+    font-size: 117%;
+  }
+}
+
+@media (max-width: 325px) {
   .contactSection {
     padding: 5%;
     display: flex;
@@ -49,4 +94,4 @@
     margin-left: 25%;
     font-size: 100%;
   }
-}
+} */
